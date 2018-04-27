@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class DAOHelloWorld {
 	
-	private static String FileName = "/Users/corentin/Desktop/hello.rtf";
+	private static String FileName = "/Users/corentin/Desktop/helloworldmvc/helloworldmvc/helloworldmvc.main/target/hello.rtf";
 	private static DAOHelloWorld instance = null;
 	private String helloWorldMessage = null;
 	
@@ -56,7 +56,7 @@ public class DAOHelloWorld {
 	}
 
 	public String getHelloWorldMessage() {
-		return helloWorldMessage;
+		return this.helloWorldMessage;
 	}
 
 	public void setHelloWorldMessage(String helloWorldMessage) {
